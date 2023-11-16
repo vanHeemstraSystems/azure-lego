@@ -7,7 +7,7 @@ Before we start, you need the following:
 3. Ensure you have the [Azure CLI utilities](https://github.com/Azure/azure-cli).<br/> 
 On OSX with [Homebrew](https://brew.sh/): ```$ brew install azure-cli```<br/>
 On Linux with [Install Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt): ```$ curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash```
-4. Login to Azure on the command line: ```az login``` or alternatively ```$ az login --use-device-code```
+4. Login to Azure on the command line: ```az login``` or alternatively ```$ az login --use-device-code --allow-no-subscriptions```
 5. Ensure your Default Azure subscription is what you want to use for this. *See great instructions in [terraform docs](https://www.terraform.io/docs/providers/azurerm/authenticating_via_azure_cli.html) here*.
 6. Clone the sample code repo: <br/>
 ```$ git clone git@github.com:ascode-app/lego-as-code.git```
