@@ -1,6 +1,8 @@
 azure-lego
 # Azure LEGO
 
+Based on "Serverless on Azure for Beginners" at https://tidalcloud.com/blog/serverless-on-azure-for-beginners-with-cloudflare-and-terraform/
+
 ## 100 - Introduction
 
 We aim to compare Azure 'building blocks' with LEGO building bricks, to simplify the understanding of how Azure is 'constructed'.
