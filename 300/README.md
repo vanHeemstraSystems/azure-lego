@@ -50,6 +50,6 @@ resource "azurerm_container_group" "aci-api" {
 
 [https://github.com/ascode-app/lego-as-code/setup/main.tf](https://github.com/ascode-app/lego-as-code/blob/main/setup/main.tf)
 
-ACI was simple to use, but it’s not the most cost-effective for something that’s expected to get only periodic requests. So, I will end up refactoring this to an Azure Function with a GitHub deployment hook.
+[ACI](https://azure.microsoft.com/en-us/services/container-instances/) was simple to use, but it’s not the most cost-effective for something that’s expected to get only periodic requests. So, I will end up refactoring this to an [Azure Function](https://azure.microsoft.com/en-us/services/functions/) with a [GitHub deployment hook](https://docs.microsoft.com/en-us/azure/azure-functions/functions-continuous-deployment).
 
 With the web UI and API components in place, we now need some DNS and CDN magic to make it user-friendly.
