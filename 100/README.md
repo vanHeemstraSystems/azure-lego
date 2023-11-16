@@ -33,6 +33,6 @@ We also want to try some of the new [Azure Terraform resources](https://www.terr
 ## How?
 In this example, we’ll use Azure for our storage and compute, layering [CloudFlare](https://www.cloudflare.com/) on top for TLS encryption to the client. We’ll manage this whole multi-provider stack with one terraform configuration, practicing what we preach with Infrastructure as Code.
 
-The code can be found here if you want to reproduce: [github.com/dcolebatch/azure_serverless_example](github.com/dcolebatch/azure_serverless_example)
+The code can be found here if you want to reproduce: https://github.com/dcolebatch/azure_serverless_example
 
 So let’s unpack this!
