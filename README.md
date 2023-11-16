@@ -7,6 +7,8 @@ We aim to compare Azure 'building blocks' with LEGO building bricks, to simplify
 
 For example:
 
+![Azure Virtual Network.](../images/azure-virtual-network-icon.png)
+
 Azure Virtual Network:
 
 *"Azure Virtual Network is the fundamental building block for your private network in Azure. A virtual network is a virtual, isolated portion of Azure public network. Use VNets for communication between Azure resources, the internet, and on-premises networks."*
