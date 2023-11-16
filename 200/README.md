@@ -2,7 +2,7 @@
 
 Before we start, you need the following:
 
-1. A domain name. We used [freenom.com](http://freenom.com/) in this example, and created ```serverlessexample.ga```
+1. A domain name. You could use [freenom.com](http://freenom.com/) for example. We created ```ascode.app```
 2. [git](https://git-scm.com/) for source control
 3. Ensure you have the [Azure CLI utilities](https://github.com/Azure/azure-cli).<br/> 
 On OSX with [Homebrew](https://brew.sh/): ```$ brew install azure-cli```
