@@ -5,23 +5,16 @@ Based on "Serverless on Azure for Beginners" at https://tidalcloud.com/blog/serv
 
 ## 100 - Introduction
 
-We aim to compare Azure 'building blocks' with LEGO building bricks, to simplify the understanding of how Azure is 'constructed'.
+See [README.md](./100/README.md)
 
-For example:
+## 200 - Requirements
 
-### Azure Virtual Network:
+See [README.md](./200/README.md)
 
-![Azure Virtual Network.](./images/azure-virtual-network-icon.png)
+## 300 - Building Our Application
 
-*"Azure Virtual Network is the fundamental building block for your private network in Azure. A virtual network is a virtual, isolated portion of Azure public network. Use VNets for communication between Azure resources, the internet, and on-premises networks."*
+See [README.md](./300/README.md)
 
-Source: https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/
+## 400 - Conclusion
 
-### LEGO Baseplate:
-
-![LEGO Baseplate.](./images/lego-baseplate.png)
-
-*"A Baseplate is a large flat plate in many colors, on which structures are often built ontop of. They can be bought as sets like 628 X-Large Grey Baseplate or come in sets that contain buildings. Compared to regular plate elements, baseplates are thinner and flat and their undersides cannot be connected to other studded pieces."*
-
-Source: https://brickipedia.fandom.com/wiki/Baseplate
-
+See [README.md](./400/README.md)
