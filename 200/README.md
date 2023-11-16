@@ -14,6 +14,6 @@ On Linux with [Install Azure CLI](https://learn.microsoft.com/en-us/cli/azure/in
 7. If not already installed (```$ terraform -v```), [install Terraform](https://developer.hashicorp.com/terraform/install) as follows: <br/>On Linux Ubuntu: <br/>```$ wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg```<br/>
 ```$ echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list```<br/>
 ```$ sudo apt update && sudo apt install terraform```
-8. Initialize your terraform, which downloads any providers we depend on: ```terraform init```
+8. Initialize your terraform, which downloads any providers we depend on: ```$ cd lego-as-code/setup```<br/>```$ terraform init```
 
 Great, now you’re ready to tweak our terraform to your liking and see what affects your changes will have using the ```terraform plan``` command.
