@@ -12,4 +12,4 @@ On OSX with [Homebrew](https://brew.sh/): ```$ brew install azure-cli```
 ```$ git clone git@github.com:dcolebatch/azure_serverless_example.git```
 7. Initialize your terraform, which downloads any providers we depend on: ```terraform init```
 
-Great, now you’re ready to tweak our terraform to your liking and see what affects your changes will have using the terraform plan command.
+Great, now you’re ready to tweak our terraform to your liking and see what affects your changes will have using the ```terraform plan``` command.
