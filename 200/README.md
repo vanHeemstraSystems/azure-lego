@@ -6,7 +6,7 @@ Before we start, you need the following:
 2. [git](https://git-scm.com/) for source control
 3. Ensure you have the [Azure CLI utilities](https://github.com/Azure/azure-cli).<br/> 
 On OSX with [Homebrew](https://brew.sh/): ```$ brew install azure-cli```<br/>
-On Linux with [Node Package Manager](https://www.npmjs.com/): ```$npm install azure-cli```
+On Linux with [Node Package Manager](https://www.npmjs.com/): ```$ npm install azure-cli```
 4. Login to Azure on the command line: ```az login```
 5. Ensure your Default Azure subscription is what you want to use for this. *See great instructions in [terraform docs](https://www.terraform.io/docs/providers/azurerm/authenticating_via_azure_cli.html) here*.
 6. Clone the sample code repo: <br/>
