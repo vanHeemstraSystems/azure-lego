@@ -48,6 +48,9 @@ If you ever set or change modules or backend configuration for Terraform,
 rerun this command to reinitialize your working directory. If you forget, other
 commands will detect it and remind you to do so if necessary.
 ```
+
+=== START OLD, REMOVE ==
+
 9. In ```lego-as-code/setup/``` rename ```env_vars.sh.sample``` to ```env_vars.sh``` and make it executable: <br/> ```$ chmod +x env_vars.sh```
 10. Update the content of ```lego-as-code/setup/env_vars.sh``` as follows: <br/>
 ```# To authenticate with CloudFlare.com, set the following environment
@@ -55,6 +58,15 @@ commands will detect it and remind you to do so if necessary.
 
 export TF_VAR_CLOUDFLARE_EMAIL='your@email' <== replace with the email address that is registered with Cloudflare
 export TF_VAR_CLOUDFLARE_TOKEN='someTOKEN' <== replace with the key ID mentioned previously by terraform init
+```
+=== END OLD, REMOVE ===
+
+9. In ```lego-as-code/setup``` rename ```variables.tf.sample``` to ```variables.tf```.
+10. Update the content of ```lego-as-code/setup/variables.tf``` as follows: <br/>
+
+```
+variable "CLOUDFLARE_EMAIL" {your@email} <== replace with the email address that is registered with Cloudflare
+variable "CLOUDFLARE_TOKEN" {someToken} <== replace with the key ID mentioned previously by terraform init
 ```
 
 Great, now you’re ready to tweak our terraform to your liking and see what affects your changes will have using the ```terraform plan``` command.
