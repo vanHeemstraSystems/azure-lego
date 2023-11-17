@@ -1,1 +1,6 @@
+
 image: public.ecr.aws/vlaaaaaaad/gitpod-terraform:latest
+
+vscode:
+  extensions:
+    - hashicorp.terraform
