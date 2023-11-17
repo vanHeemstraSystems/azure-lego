@@ -65,8 +65,15 @@ export TF_VAR_CLOUDFLARE_API_TOKEN='someAPIToken' <== replace with the key ID me
 10. Update the content of ```lego-as-code/setup/variables.tf``` as follows: <br/>
 
 ```
-variable "cloudflare_email" {your@email} <== replace with the email address that is registered with Cloudflare
-variable "cloudflare_api_token" {someAPIToken} <== replace with the key ID mentioned previously by terraform init
+variable "cloudflare_email" {
+    type = string
+    default = "your@email" <== replace with the email address that is registered with Cloudflare
+}
+
+variable "cloudflare_api_token" {
+    type = string
+    default = "someAPIToken" <== replace with the key ID mentioned previously by terraform init
+}
 ```
 
 Great, now you’re ready to tweak our terraform to your liking and see what affects your changes will have using the ```terraform plan``` command.
