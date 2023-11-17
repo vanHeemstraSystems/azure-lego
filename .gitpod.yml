@@ -8,4 +8,13 @@ vscode:
 additionalRepositories:
     - url: https://github.com/ascode-app/lego-as-code
       # checkoutLocation is relative to /workspaces
-      checkoutLocation: lego-as-code  
+      checkoutLocation: lego-as-code
+
+tasks:
+    - name: lego-as-code
+      # change working directory as per configured in `checkoutLocation`
+      # which is configured above as `/workspaces/lego-as-code`
+      before: |
+          cd ../lego-as-code/setup
+      init: |
+          echo terraform init    
