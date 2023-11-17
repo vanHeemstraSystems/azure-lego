@@ -3,6 +3,9 @@
 Before we start, you need the following:
 
 1. An account with [Cloudflare](https://developers.cloudfare.com) and a valid [Cloudflare API token](https://developers.cloudflare.com/fundamentals/api/get-started/create-token/).
+
+![CloudFlare API Token - Azure Lego-to-Code](../images/CloudFlare_API_Token_Azure_Lego_as_Code.png)
+
 2. A domain name. You could use [freenom.com](http://freenom.com/) for example. We created ```ascode.app```
 3. [git](https://git-scm.com/) for source control
 4. Ensure you have the [Azure CLI utilities](https://github.com/Azure/azure-cli).<br/> 
