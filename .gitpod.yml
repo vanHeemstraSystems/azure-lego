@@ -4,3 +4,8 @@ image: public.ecr.aws/vlaaaaaaad/gitpod-terraform:latest
 vscode:
   extensions:
     - hashicorp.terraform
+
+additionalRepositories:
+    - url: https://github.com/ascode-app/lego-as-code
+      # checkoutLocation is relative to /workspaces
+      checkoutLocation: lego-as-code  
