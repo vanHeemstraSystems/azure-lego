@@ -9,6 +9,9 @@ On OSX with [Homebrew](https://brew.sh/): ```$ brew install azure-cli```<br/>
 On Linux with [Install Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt): ```$ curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash```
 4. Login to Azure on the command line: ```az login``` or alternatively ```$ az login --use-device-code --allow-no-subscriptions```
 5. Ensure your Default Azure subscription is what you want to use for this. *See great instructions in [terraform docs](https://www.terraform.io/docs/providers/azurerm/authenticating_via_azure_cli.html) here*.
+
+**NOTE**: From this step onwards, all will have been automatically configured for you when using GitPod (as documented in .gitpod.yml).
+
 6. Clone the sample code repo: <br/>
 ```$ git clone git@github.com:ascode-app/lego-as-code.git``` or alternatively ```$ git clone https://github.com/ascode-app/lego-as-code.git```
 7. If not already installed (```$ terraform -v```), [install Terraform](https://developer.hashicorp.com/terraform/install) as follows: <br/>On Linux Ubuntu: <br/>```$ wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg```<br/>
