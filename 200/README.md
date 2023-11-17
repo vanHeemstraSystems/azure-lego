@@ -16,7 +16,7 @@ On Linux with [Install Azure CLI](https://learn.microsoft.com/en-us/cli/azure/in
 ```$ sudo apt update && sudo apt install terraform```
 8. Initialize your terraform, which downloads any providers we depend on: ```$ cd lego-as-code/setup```<br/>```$ terraform init```
 
-You will be promted as follows:
+You will be prompted as follows (here: key ID hidden for security reasons):
 
 ```
 Initializing the backend...
