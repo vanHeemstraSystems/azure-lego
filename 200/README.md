@@ -8,7 +8,7 @@ Before we start, you need the following:
 
 2. A domain name. You could use [freenom.com](http://freenom.com/) for example. We created ```ascode.app```
 3. [git](https://git-scm.com/) for source control
-4. Ensure you have the [Azure CLI utilities](https://github.com/Azure/azure-cli).<br/> 
+4. Ensure you have the [Azure CLI utilities](https://github.com/Azure/azure-cli): ```az -v```<br/> 
 On OSX with [Homebrew](https://brew.sh/): ```$ brew install azure-cli```<br/>
 On Linux with [Install Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt): ```$ curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash```
 5. Login to Azure on the command line: ```az login``` or alternatively ```$ az login --use-device-code --allow-no-subscriptions```
