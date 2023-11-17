@@ -17,4 +17,5 @@ tasks:
       before: |
           cd ../lego-as-code/setup
       init: |
-          echo terraform init    
+          terraform init
+          mv variables.tf.sample variables.tf
