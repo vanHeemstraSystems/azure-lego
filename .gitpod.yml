@@ -16,6 +16,8 @@ tasks:
       # which is configured above as `/workspaces/lego-as-code`
       before: |
           cd ../lego-as-code/setup
+      # terraform can be abbreviated as tf    
       init: |
-          terraform init
+          tf init
           mv variables.tf.sample variables.tf
+          tf validate
