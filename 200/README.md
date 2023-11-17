@@ -57,7 +57,7 @@ commands will detect it and remind you to do so if necessary.
 # variables:
 
 export TF_VAR_CLOUDFLARE_EMAIL='your@email' <== replace with the email address that is registered with Cloudflare
-export TF_VAR_CLOUDFLARE_TOKEN='someTOKEN' <== replace with the key ID mentioned previously by terraform init
+export TF_VAR_CLOUDFLARE_API_TOKEN='someAPIToken' <== replace with the key ID mentioned previously by terraform init
 ```
 === END OLD, REMOVE ===
 
@@ -65,8 +65,8 @@ export TF_VAR_CLOUDFLARE_TOKEN='someTOKEN' <== replace with the key ID mentioned
 10. Update the content of ```lego-as-code/setup/variables.tf``` as follows: <br/>
 
 ```
-variable "CLOUDFLARE_EMAIL" {your@email} <== replace with the email address that is registered with Cloudflare
-variable "CLOUDFLARE_TOKEN" {someToken} <== replace with the key ID mentioned previously by terraform init
+variable "cloudflare_email" {your@email} <== replace with the email address that is registered with Cloudflare
+variable "cloudflare_api_token" {someAPIToken} <== replace with the key ID mentioned previously by terraform init
 ```
 
 Great, now you’re ready to tweak our terraform to your liking and see what affects your changes will have using the ```terraform plan``` command.
